@@ -1,0 +1,67 @@
+# ==========================================
+# PureBasic - Compilados y salidas de build
+# ==========================================
+build/
+bin/
+dist/
+release/
+debug/
+out/
+
+# Ejecutables y librerías dinámicas generadas
+*.exe
+*.dll
+*.so
+*.dylib
+*.app/
+*.res
+*.obj
+*.o
+*.lib
+*.a
+*.exp
+
+# ==========================================
+# PureBasic - Temporales del IDE y compilador
+# ==========================================
+# Copias de seguridad automáticas del IDE de PureBasic
+*.bak
+*~
+
+# Archivos temporales de compilación / depuración
+PureBasic_Compilation*.exe
+PureBasic.exe.cfg
+*.dbg
+*.pdb
+*.map
+
+# Archivos de proyecto (opcional: descomenta la siguiente línea si cada desarrollador usa sus propias rutas locales en el .pbp)
+# *.pbp
+
+# ==========================================
+# Empaquetado e instaladores
+# ==========================================
+*.zip
+*.7z
+*.rar
+*.msi
+*.iss.bak
+
+# ==========================================
+# Sistema operativo (Windows / macOS / Linux)
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+
+# ==========================================
+# Editores externos y logs
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+*.log
