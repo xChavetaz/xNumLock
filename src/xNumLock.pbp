@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.60 (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="xNumLock"/>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2019-07-22 12:52" user="arxa2" host="DESKTOP-7Q7AP5Q"/>
+  </section>
+  <section name="files">
+    <file name="..\3.xIncludes\IconLibrary.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="25bda1ff62f7c660b14f340d2eb6ccd6"/>
+    </file>
+    <file name="..\3.xIncludes\LibreriaGral.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="c7b366657aa23220a94dcf6cf4ea830f"/>
+    </file>
+    <file name="..\3.xIncludes\Multilanguage.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="5f570e21209c0df6dd6afc0815a9eb4e"/>
+    </file>
+    <file name="..\3.xIncludes\TaskbarHide.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="ede081329ffb61f390cc4039564a5046"/>
+    </file>
+    <file name="..\3.xIncludes\xWinAPI.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="5d6c2cac216c06f3ec46a19c903b2220"/>
+    </file>
+    <file name="WinAbout.pbf">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="6bc3b8b4af7c934bd9ea9249d086ac42"/>
+    </file>
+    <file name="xNumLock.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="78e6fe3316fab5d7c750d7b8a6fe6665"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="xNumLock.pb"/>
+      <outputfile value="xNumLock.exe"/>
+      <executable value="xNumLock.exe"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">_recursos\xnum.ico</icon>
+      <warnings custom="1" type="display"/>
+      <compilecount enable="1" value="457"/>
+      <buildcount enable="1" value="47"/>
+      <execonstant enable="1"/>
+    </target>
+  </section>
+</project>

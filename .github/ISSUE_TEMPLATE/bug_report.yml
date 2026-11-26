@@ -1,0 +1,51 @@
+name: Bug Report
+description: Reporta un fallo o comportamiento inesperado
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar el problema. Completa los campos siguientes para facilitar la reproducción y el diagnóstico.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del problema
+      description: Explica qué ocurre y qué esperabas que sucediera.
+      placeholder: Al ejecutar X con los parámetros Y, ocurre...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducirlo
+      description: Enumera los pasos exactos para provocar el fallo.
+      placeholder: |
+        1. Abrir...
+        2. Ejecutar...
+        3. Observar el error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      description: Versión del proyecto, sistema operativo, runtime o herramientas relevantes.
+      placeholder: |
+        - Versión: v1.0.0
+        - SO: Windows 11 / Ubuntu / macOS
+        - Entorno / dependencias: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs o salida de error
+      description: Pega aquí el mensaje de error o traza relevante (sin credenciales ni datos sensibles).
+      render: shell
+    validations:
+      required: false
